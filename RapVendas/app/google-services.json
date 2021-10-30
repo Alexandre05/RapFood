@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "271081019284",
+    "firebase_url": "https://rapfood-e6f96-default-rtdb.firebaseio.com",
+    "project_id": "rapfood-e6f96",
+    "storage_bucket": "rapfood-e6f96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271081019284:android:d4b74e6c3e6b9416476181",
+        "android_client_info": {
+          "package_name": "br.com.rapfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271081019284-11hs8lbot1k7g2ar5dpb4rsljldvh536.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.rapfood",
+            "certificate_hash": "d777121561955fc1e5b45ea2a7bb73cbd3602a1b"
+          }
+        },
+        {
+          "client_id": "271081019284-q6cnah89rkhg01vitpnn1nt75hti24r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFcLIf5TwgaA76F0TQNoRCOp3tIIoijo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271081019284-q6cnah89rkhg01vitpnn1nt75hti24r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
