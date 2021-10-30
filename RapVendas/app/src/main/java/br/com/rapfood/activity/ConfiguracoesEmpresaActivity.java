@@ -27,9 +27,11 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.squareup.picasso.Picasso;
+import com.squareup.picasso.provider.PicassoProvider;
+
 
 import java.io.ByteArrayOutputStream;
+import java.security.Provider;
 import java.util.Objects;
 
 import br.com.rapfood.R;
@@ -100,9 +102,8 @@ public class ConfiguracoesEmpresaActivity extends AppCompatActivity {
                     editEmpresaTempo.setText(empresas.getTempo());
 
                     urlImagemSelecionada = empresas.getUrlImagem();
-                    if( urlImagemSelecionada==("")){
-                        Picasso.get()
-                                .load(urlImagemSelecionada)
+                    if( urlImagemSelecionada!=("")){
+                        PicassoProvider.get().load(urlImagemSelecionada)
                                 .into(imagePerfilEmpresa);
                     }
 

@@ -47,7 +47,7 @@ dependencies {
 
     implementation 'com.android.support:design:'
     /*Picasso*/
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.picasso:picasso-provider:3.0.0-SNAPSHOT'
 
     //Dependência dialog de progresso
     //implementation ' com.github.d-max:spots-dialog:1.1@aar'
