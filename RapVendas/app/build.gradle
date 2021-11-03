@@ -4,7 +4,7 @@ android {
     compileSdkVersion 31
     defaultConfig {
         applicationId "br.com.rapfood"
-        minSdkVersion 21
+        minSdkVersion 16
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
@@ -39,6 +39,7 @@ dependencies {
     //implementation 'com.google.firebase:firebase-storage:20.0.0'
     implementation 'com.google.firebase:firebase-auth:21.0.1'
 
+    implementation platform('com.google.firebase:firebase-bom:28.4.2')
     /*MaterialSearchView*/
    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
 
@@ -47,7 +48,8 @@ dependencies {
 
     implementation 'com.android.support:design:'
     /*Picasso*/
-    implementation 'com.squareup.picasso:picasso-provider:3.0.0-SNAPSHOT'
+     implementation 'com.squareup.picasso:picasso:2.71828'
+
 
     //Dependência dialog de progresso
     //implementation ' com.github.d-max:spots-dialog:1.1@aar'

@@ -24,6 +24,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
+
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -81,7 +82,7 @@ public class CardapioActivity extends AppCompatActivity {
             idEmpresa = empresaSelecionada.getIdUsuario();
 
             String url = empresaSelecionada.getUrlImagem();
-            //Picasso.get().load(url).into(imageEmpresaCardapio);
+            Picasso.get().load(url).into(imageEmpresaCardapio);
 
         }
 

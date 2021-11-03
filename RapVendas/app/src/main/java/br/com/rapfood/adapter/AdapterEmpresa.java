@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.provider.PicassoProvider;
 
 import java.util.List;
 
@@ -46,7 +45,7 @@ public class AdapterEmpresa extends RecyclerView.Adapter<AdapterEmpresa.MyViewHo
 
         //Carregar imagem
         String urlImagem = empresa.getUrlImagem();
-        PicassoProvider.get().load( urlImagem ).into( holder.imagemEmpresa );
+        Picasso.get().load( urlImagem ).into( holder.imagemEmpresa );
 
     }
 

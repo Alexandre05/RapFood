@@ -63,7 +63,12 @@ public class PedidosActivity extends AppCompatActivity {
         recuperarPedidos();
 
         //Adiciona evento de clique no recyclerview
+
         recyclerPedidos.addOnItemTouchListener(
+
+
+
+
                 new RecyclerItemClickListener(
                         this,
                         recyclerPedidos,

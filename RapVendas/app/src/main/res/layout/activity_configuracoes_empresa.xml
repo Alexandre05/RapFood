@@ -19,12 +19,15 @@
         android:padding="16dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/imagePerfilEmpresa"
+            android:id="@+id/imagePerfilEmpres"
             android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
-            android:src="@drawable/perfil" />
+            android:layout_marginBottom="8dp"
+
+            android:src="@drawable/perfil"
+            app:civ_border_color="#FF000000 "
+            app:civ_border_width="2dp" />
 
         <EditText
             android:id="@+id/editEmpresaNome"

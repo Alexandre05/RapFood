@@ -17,6 +17,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+
         <EditText
             android:id="@+id/editProdutoNome"
             android:layout_width="match_parent"
@@ -48,6 +49,7 @@
             android:hint="Preço"
             android:inputType="numberDecimal"
             android:padding="16dp" />
+
 
         <Button
             android:id="@+id/buttonAcesso2"

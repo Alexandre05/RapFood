@@ -35,6 +35,7 @@ public class ConfiguracoesUsuarioActivity extends AppCompatActivity {
 
         //Configurações Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
+
         toolbar.setTitle("Configurações usuário");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
